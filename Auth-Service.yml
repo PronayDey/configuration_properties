@@ -20,3 +20,10 @@ management:
         include: '*'
 server:
   port: 8081
+  
+auth-service:
+ messages: 
+  userReg: User Created
+  userRegErr: User Creation Failed
+  login: Login Success
+  loginErr: Invalid Credentials 
